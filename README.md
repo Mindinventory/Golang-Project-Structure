@@ -7,8 +7,7 @@ This is a sample structure for managing Go projects which provides versioning fo
 - godotenv : Basically used for load env variables from .env file.
 - mysql : It provides the mysql driver for connecting Go with MySQL.
 
-## Official Blog URL:
-https://www.mindinventory.com/blog/golang-project-structure/
+Read about how we made this on our blog (https://www.mindinventory.com/blog/golang-project-structure/)
 
 ## STRUCTURE
 
