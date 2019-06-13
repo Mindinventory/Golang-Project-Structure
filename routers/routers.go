@@ -1,12 +1,14 @@
-package Routers
+package routers
 
 import (
-	apiControllerV1 "GoProject/controllers/api/v1"
-	apiControllerV2 "GoProject/controllers/api/v2"
-	"GoProject/middlewares"
+	apiControllerV1 "Golang-Project-Structure/controllers/api/v1"
+	apiControllerV2 "Golang-Project-Structure/controllers/api/v2"
+	"Golang-Project-Structure/middlewares"
 	"github.com/gin-gonic/gin"
 )
-
+/*
+SetupRouter function will perform all route operations
+ */
 func SetupRouter() *gin.Engine {
 
 	r := gin.Default()
