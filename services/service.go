@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-//Common functions
+//RandomString returns the string in uppser-case
 func RandomString(str string) string {
 	b := make([]byte, 3)
 	rand.Read(b)
