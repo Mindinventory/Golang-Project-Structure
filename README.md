@@ -11,7 +11,7 @@ There is no doubt that Golang’s good documentation and intelligent features co
 - godotenv : Basically used for load env variables from .env file.
 - mysql : It provides the mysql driver for connecting Go with MySQL.
 
-Check it our blog (https://www.mindinventory.com/blog/golang-project-structure/)
+Check out our blog to know how to use Golang API Skeleton with Fully Managed Versions to kick start Golang project. (https://www.mindinventory.com/blog/golang-project-structure/)
 
 
 ## STRUCTURE
