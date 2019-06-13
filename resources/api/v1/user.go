@@ -1,5 +1,6 @@
-package v1Resources
+package v1resources
 
+//UserResponse struct
 type UserResponse struct {
 	ID    uint   `json:"id"`
 	Name  string `json:"name,omitempty"`
