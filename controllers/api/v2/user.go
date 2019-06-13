@@ -7,6 +7,9 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+/*
+UserList function will give you the list of users
+ */
 func UserList(c *gin.Context) {
 	var userService v2s.UserService
 
