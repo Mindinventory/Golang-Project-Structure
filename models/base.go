@@ -2,16 +2,15 @@ package models
 
 import (
 	"fmt"
-	_ "github.com/go-sql-driver/mysql"
+	"github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
 	"github.com/joho/godotenv"
-	"gopkg.in/go-playground/validator.v9"
+	"log"
 	"os"
 	"time"
 )
 
 var db *gorm.DB
-
 /*
 Model is sample of common table structure
  */
@@ -35,6 +34,9 @@ func init() {
 	dbHost := os.Getenv("db_host")
 	dbPort := os.Getenv("db_port")
 
+	msql := mysql.Config{}
+	log.Println(msql)
+
 	conn, err := gorm.Open("mysql", username+":"+password+"@tcp("+dbHost+":"+dbPort+")/"+dbName+"?charset=utf8&parseTime=True&loc=Asia%2FKolkata")
 
 	if err != nil {
@@ -50,7 +52,6 @@ func init() {
 		&User{},
 	)
 }
-
 /*
 GetDB function return the instance of db
  */
