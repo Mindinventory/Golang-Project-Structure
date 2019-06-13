@@ -2,7 +2,9 @@ package middlewares
 
 import "github.com/gin-gonic/gin"
 
-//Middleware functions
+/*
+UserMiddlewares function to add auth
+*/
 func UserMiddlewares() gin.HandlerFunc {
 	return func(c *gin.Context) {
 
