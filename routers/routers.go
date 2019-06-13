@@ -6,9 +6,8 @@ import (
 	"Golang-Project-Structure/middlewares"
 	"github.com/gin-gonic/gin"
 )
-/*
-SetupRouter function will perform all route operations
- */
+
+//SetupRouter function will perform all route operations
 func SetupRouter() *gin.Engine {
 
 	r := gin.Default()
