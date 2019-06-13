@@ -13,6 +13,7 @@ install:
 
 deploy:
   provider: script
+  script: 'bundle exec rake spec'
   skip_cleanup: true
   on:
     branch: master
