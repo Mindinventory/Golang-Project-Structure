@@ -4,9 +4,9 @@ import (
 	"strconv"
 )
 
-//Any helper functions
-
+/*
+Int64ToString function convert a float number to a string
+ */
 func Int64ToString(inputNum int64) string {
-	// to convert a float number to a string
-	return strconv.FormatInt(inputNum, 10)
+		return strconv.FormatInt(inputNum, 10)
 }
