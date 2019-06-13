@@ -11,9 +11,8 @@ import (
 )
 
 var db *gorm.DB
-/*
-Model is sample of common table structure
- */
+
+//Model is sample of common table structure
 type Model struct {
 	ID        uint       `gorm:"primary_key" json:"id,omitempty"`
 	CreatedAt time.Time  `gorm:"not null" json:"created_at" sql:"DEFAULT:CURRENT_TIMESTAMP"`
@@ -52,9 +51,8 @@ func init() {
 		&User{},
 	)
 }
-/*
-GetDB function return the instance of db
- */
+
+//GetDB function return the instance of db
 func GetDB() *gorm.DB {
 	return db
 }
