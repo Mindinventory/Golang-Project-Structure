@@ -1,19 +1,8 @@
 language: go
-
-go:
-  - 1.x
-
-before_install:
-  - gem install bundler
-
 sudo: false
-
+before_script:
+  - go vet ./...
 install:
-  - go get -t -v ./...
-
-deploy:
-  provider: script
-  script: 'bundle exec rake spec'
-  skip_cleanup: true
-  on:
-    branch: master
+  # Add Godeps dependencies to GOPATH and PATH
+  - export GOPATH="${TRAVIS_BUILD_DIR}/Godeps/_workspace:$GOPATH"
+  - export PATH="${TRAVIS_BUILD_DIR}/Godeps/_workspace/bin:$PATH"
