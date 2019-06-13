@@ -1,19 +1,31 @@
-# Go Project Structure
+# Golang Skeleton With Fully Managed Versions For Kick Start GoLang Project Development
 
-This is a sample structure for managing Go projects which provides versioning for REST APIs. This repository has following packages which makes it useful while creating your first GO project.
+There is no doubt that Golang’s good documentation and intelligent features could help developers in learning language efficiently and outcome might be promising still, What Golang is missing is the common structure to quick start any API Structure. While working on several Golang Projects, Golang Developers at Mindinventory confront the requirement of having an effective and well Integrated GoLang API Development Structure and as a result of which they came up with one. 
 
 - gorm : It is the ORM library in Go which provides user friendly functions to interact with database. It supports features like ORM, Associations, Hooks, Preloading, Transaction, Auto Migration, Logger etc.
 - gin : Gin is a web framework for Go language. Here gin is used for increase performance and productivity.
 - godotenv : Basically used for load env variables from .env file.
 - mysql : It provides the mysql driver for connecting Go with MySQL.
 
-Read about how we made this on our blog (https://www.mindinventory.com/blog/golang-project-structure/)
+Check it our blog (https://www.mindinventory.com/blog/golang-project-structure/)
+
 
 ## STRUCTURE
 
 <img src="https://raw.githubusercontent.com/Mindinventory/Golang-Project-Structure/master/structure.png" width=400>
 
-## Directories
+
+## What it is?
+
+It is a fully managed repository, where one can find all required components in a single package including versioning for REST APIs and you do not need to set up each time they start with any crucial work in Golang.
+
+
+## Prerequisite
+
+One need to install the latest version of Go i.e 1.12 (Released in Feb 2019) from https://golang.org/dl/ and setup GOROOT and GOPATH.
+
+## Components 
+
 
 ### 1. ApiHelpers
 Basically contains the helper functions used in returning api responses, HTTP status codes, default messages etc.
@@ -52,21 +64,16 @@ Contains the HTML templates used in your project
 Contains environment variables.
 
 
-## Pre-requirements before starting your first go projects
+## Steps to Follow
 
-. Install latest version of go i.e 1.12 (Released in Feb 2019)
-. Setup GOROOT and GOPATH
-
-## RUN THE SERVER (Basic commands)
-
-. For running the server you have to run following command
+. For running the server you have to run following command in the terminal.
         ```go run main.go```
-  It will start your server at the port you have mentioned in ```.env``` file.
+  It will start your server at the port you have mentioned in the ```.env``` file.
   
-. If you want to run the server in port other than default, then run following command
+. To run the server in a port other than the default, run following command.
         ```go run main.go <specific port>```
         
-. If you want to create a build for your project and upload in server, then you have to run following command
+. To create a build for your project and uploaded in the server, one need to run following command.
         ```go build```
         
        
