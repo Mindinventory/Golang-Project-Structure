@@ -3,6 +3,9 @@ language: go
 go:
   - 1.x
 
+before_install:
+  - gem install bundler
+
 sudo: false
 
 install:
