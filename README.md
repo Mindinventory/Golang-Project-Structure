@@ -31,19 +31,19 @@ One need to install the latest version of Go i.e 1.12 (Released in Feb 2019) fro
 ## Components 
 
 
-### 1. ApiHelpers
+### 1. apiHelpers
 Basically contains the helper functions used in returning api responses, HTTP status codes, default messages etc.
 
-### 2. Controllers
+### 2. controllers
 Contains handler functions for particular route to be called when an api is called.
 
-### 3. Helpers
+### 3. helpers
 Contains helper functions used in all apis
 
-### 4. Middlewares
+### 4. middlewares
 Middleware to be used for the project
 
-### 5. Models
+### 5. models
 Database tables to be used as models struct
 
 ### 6. Resources
