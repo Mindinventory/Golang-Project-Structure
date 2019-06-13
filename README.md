@@ -1,4 +1,5 @@
 # Golang Skeleton With Fully Managed Versions For Kick Start GoLang Project Development
+<a href="https://goreportcard.com/report/github.com/Mindinventory/Golang-Project-Structure" style="pointer-events: none;"><img src="https://camo.githubusercontent.com/0ae6d2ce75a24c94b20e48c7d50d561bd15e2884/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f6a756e672d6b7572742f676f66706466"></a>
 
 There is no doubt that Golang’s good documentation and intelligent features could help developers in learning language efficiently and outcome might be promising still, What Golang is missing is the common structure to quick start any API Structure. While working on several Golang Projects, Golang Developers at Mindinventory confront the requirement of having an effective and well Integrated GoLang API Development Structure and as a result of which they came up with one. 
 
