@@ -7,7 +7,6 @@ sudo: false
 
 install:
   - go get -t -v ./...
-  - npm install netlify-cli -g
 
 deploy:
   provider: script
