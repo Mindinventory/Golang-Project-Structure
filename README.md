@@ -2,7 +2,7 @@
 <a href="https://travis-ci.org/Mindinventory/Golang-Project-Structure" style="pointer-events: none;" target="_blank"><img src="https://travis-ci.org/Mindinventory/Golang-Project-Structure.svg?branch=master"></a>
 <a href="https://godoc.org/fyne.io/fyne" style="pointer-events: none;" target="_blank"><img src="https://camo.githubusercontent.com/42eb03af37dfb3411de02f9bd5af758be53ce2ed/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f676f2d646f63756d656e746174696f6e2d626c75652e7376673f7374796c653d666c6174"></a>
 <a href="https://goreportcard.com/report/github.com/Mindinventory/Golang-Project-Structure" style="pointer-events: none;" target="_blank"><img src="https://goreportcard.com/badge/github.com/Mindinventory/Golang-Project-Structure"></a>
-<a href="https://github.com/mindinventory/Golang-Project-Structure/blob/master/LICENSE" style="pointer-events: none;"  target="_blank"><img src="https://camo.githubusercontent.com/890acbdcb87868b382af9a4b1fac507b9659d9bf/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d626c75652e737667"></a>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mindinventory/Golang-Project-Structure/blob/master/LICENSE)
 
 
 There is no doubt that Golang’s good documentation and intelligent features could help developers in learning language efficiently and outcome might be promising still, What Golang is missing is the common structure to quick start any API Structure. While working on several Golang Projects, Golang Developers at Mindinventory confront the requirement of having an effective and well Integrated GoLang API Development Structure and as a result of which they came up with one. 
