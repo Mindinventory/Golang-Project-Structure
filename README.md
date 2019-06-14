@@ -3,8 +3,6 @@
 <a href="https://godoc.org/fyne.io/fyne" style="pointer-events: none;" target="_blank"><img src="https://img.shields.io/badge/go-documentation-blue.svg"></a>
 <a href="https://goreportcard.com/report/github.com/Mindinventory/Golang-Project-Structure" style="pointer-events: none;" target="_blank"><img src="https://goreportcard.com/badge/github.com/Mindinventory/Golang-Project-Structure"></a>
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mindinventory/Golang-Project-Structure/blob/master/LICENSE)
-<center><img src="https://raw.githubusercontent.com/Mindinventory/Golang-Project-Structure/master/gif.gif"></center>
-
 
 There is no doubt that Golang’s good documentation and intelligent features could help developers in learning language efficiently and outcome might be promising still, What Golang is missing is the common structure to quick start any API Structure. While working on several Golang Projects, Golang Developers at Mindinventory confront the requirement of having an effective and well Integrated GoLang API Development Structure and as a result of which they came up with one. 
 
@@ -31,6 +29,7 @@ It is a fully managed repository, where one can find all required components in 
 One need to install the latest version of Go i.e 1.12 (Released in Feb 2019) from https://golang.org/dl/ and setup GOROOT and GOPATH.
 
 ## Components 
+<center><img src="https://raw.githubusercontent.com/Mindinventory/Golang-Project-Structure/master/gif.gif"></center>
 
 
 ### 1. ApiHelpers
