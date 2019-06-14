@@ -1,8 +1,14 @@
 language: go
 
 go:
-  - 1.x
+  - "1.12"
+
+os:
+  - linux
+
+dist: trusty
+sudo: false
+install: true
 
 script:
-  - go build ./...
-  - go test ./...
+  - unset GOPATH
