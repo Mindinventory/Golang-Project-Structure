@@ -71,7 +71,7 @@ Contains environment variables.
 
 ## Steps to Follow
 
-. For running the server you have to run following command in the terminal.
+. #For running the server you have to run following command in the terminal.
         ```go run main.go```
   It will start your server at the port you have mentioned in the ```.env``` file.
   
