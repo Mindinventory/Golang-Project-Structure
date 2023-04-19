@@ -1,0 +1,78 @@
+basePath: /
+definitions:
+  response.ErrorResponse:
+    properties:
+      cause:
+        type: string
+      code:
+        type: integer
+    type: object
+  response.StatusResponse:
+    properties:
+      status:
+        type: string
+    type: object
+info:
+  contact:
+    name: Golang-Program-Structure Support
+    url: http://www.mindinventory.com
+  description: Golang-Program-Structure
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  title: Golang-Program-Structure
+  version: "1.0"
+paths:
+  /v2/golang/user:
+    get:
+      consumes:
+      - application/json
+      description: get user by user id
+      parameters:
+      - description: User ID
+        in: path
+        name: userId
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.ErrorResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/response.ErrorResponse'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/response.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/response.ErrorResponse'
+      summary: Get a user
+      tags:
+      - user
+  /v2/products/status:
+    get:
+      description: service status
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.StatusResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/response.ErrorResponse'
+      summary: Status
+      tags:
+      - system
+schemes:
+- http
+swagger: "2.0"
